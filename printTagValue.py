@@ -1,7 +1,7 @@
 import dicom, os, shutil, sys, glob
 
-# input: directory with the DICOM files
-# output: directory to store files organized by study UID
+# input: directory with the DICOM files and a tag to look for
+# output: values of tags encountered
 
 if len(sys.argv)<3:
   print 'Usage: ',sys.argv[0],' inputDirectory tag'
