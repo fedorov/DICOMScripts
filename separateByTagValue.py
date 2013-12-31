@@ -16,7 +16,7 @@ for f in os.listdir(inputDir):
   outputFile = outputSubdir+'/'+f
 
   try:
-    os.mkdir(outputSubdir)    
+    os.mkdir(outputSubdir)
   except:
     pass
 
